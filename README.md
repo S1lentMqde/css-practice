@@ -1,6 +1,6 @@
 # Week 3 — CSS Basics Practice
 **Student:** Shekerbekov Adylkhan
-**Course:** Web & Internet Technologies  
+**Course:** Software Engineering
 **Week:** 3
 
 ## Structure
