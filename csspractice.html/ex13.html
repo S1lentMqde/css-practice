@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 13 — Responsive Grid</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .responsive {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+    }
+    .responsive div {
+      background: #777;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header><h1>Exercise 13</h1></header>
+  <main>
+    <article>
+      <h2>Responsive Grid Demo</h2>
+      <div class="responsive">
+        <div>A</div><div>B</div><div>C</div><div>D</div>
+      </div>
+    </article>
+  </main>
+  <footer><p><a href="index.html">← Back to Home</a></p></footer>
+</body>
+</html>

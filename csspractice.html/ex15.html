@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 15 — Full Layout</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      gap: 20px;
+    }
+    aside {
+      background: #666;
+      padding: 20px;
+    }
+    article {
+      background: #444;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header><h1>Exercise 15</h1></header>
+  <main class="layout">
+    <aside>
+      <h2>Sidebar</h2>
+      <p>Navigation or info here</p>
+    </aside>
+    <article>
+      <h2>Main Content</h2>
+      <p>This is a two-column layout with a sidebar.</p>
+    </article>
+  </main>
+  <footer><p><a href="index.html">← Back to Home</a></p></footer>
+</body>
+</html>
